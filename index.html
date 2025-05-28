@@ -460,8 +460,6 @@ form input:focus, form textarea:focus {
     font-size: 1em;
   }
 }
-
-
       nav {
         display: none;
         flex-direction: column;
@@ -529,7 +527,6 @@ section img {
   animation: brilho 2s infinite alternate;
 }
 
-
 @keyframes brilho {
   from {
     box-shadow: 0 0 5px #00ff99;
@@ -544,8 +541,8 @@ section img {
   <button class="menu-toggle" onclick="document.querySelector('nav').classList.toggle('active')">
   ☰
 </button>
-<nav  
-   id="Menu" 
+<nav>
+   <a href="#">Início</a>
     <a href="#servicos">Serviços</a>
     <a href="#cursos">Academy</a>
     <a href="#Informática">Informática</a>
